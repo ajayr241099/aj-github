@@ -1,6 +1,6 @@
 include<stdio.h>
 int Sum_Of_Natural_Numbers(int Number);
-int  main()
+int main()
 {
   int Number, i, Sum = 0;
   printf("\nPlease Enter any Integer Value\n");
