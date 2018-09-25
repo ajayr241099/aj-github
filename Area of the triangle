@@ -6,7 +6,7 @@ return (1/2)*m*n;
 main()
 {
  float base,height;
- int answer;
+ float answer;
  printf("enter the base and height of a triangle\n");
  scanf("%f%f",&base,&height);
  answer=area(base,height);
