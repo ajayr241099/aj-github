@@ -1,5 +1,5 @@
 #include<stdio.h>
-int area(float m,float n)
+float area(float m,float n)
 {
 return (1/2)*m*n;
 }
@@ -10,6 +10,6 @@ main()
  printf("enter the base and height of a triangle\n");
  scanf("%f%f",&base,&height);
  answer=area(base,height);
- printf("area is %d",answer);
+ printf("area is %f",answer);
 }
  
