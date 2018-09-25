@@ -1,7 +1,7 @@
 #include<stdio.h>
 float area(float m,float n)
 {
-return (0.5)*m*n);
+return ((0.5)*m*n);
 }
 main()
 {
